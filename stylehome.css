@@ -631,40 +631,4 @@ a {
     padding: 2px 2px 2px 2px !important;
   }
 }
-/* sale section */
-.column {
-    width: 33.33%;
-    padding: 5px;
-    display: flex;
-        flex-direction: column;
-        align-items: center;
-}
 
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.price {
-width: 200px;
-    text-align: center;
-    display: block;
-    background-color: transparent;
-    border: 1px solid transparent;
-    margin-right: 10px;
-    margin-bottom: 1px;
-    color: red;
-   
-}
-
-.sale {
-    text-align: center;
-    font-size: 40px;
-    font-style: italic;
-}
-
-.old {
-    color: black;
-}
